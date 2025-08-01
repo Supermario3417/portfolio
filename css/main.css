@@ -189,7 +189,7 @@
   grid-gap: 2rem;
 }
 .about .activities_activity {
-  background: #4a4a4a;
+  background: rgb(73.5, 73.5, 73.5);
   padding: 0.5rem;
   border-bottom: 5px solid rgb(234, 234, 29);
 }
@@ -301,7 +301,7 @@
 .contact {
   color: white;
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 15vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -312,6 +312,7 @@
 .contact h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 .contact_list {
   display: grid;
@@ -322,9 +323,19 @@
   grid-gap: 2rem;
   margin-bottom: 1rem;
 }
+.contact .pages a {
+  position: initial;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+.contact .pages a:hover {
+  color: rgb(234, 234, 29);
+}
 .contact .profiles {
   position: initial;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 @media screen and (min-width: 768px) {
